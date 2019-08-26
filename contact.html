@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/fonts/material-icons.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Ubuntu">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+        <title>African Beauty | Contact</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="navbar-fixed">
+                <nav class="white">
+                    <div class="nav-wrapper">
+                        
+                        <a href="#" class="sidenav-trigger" data-target="menu"><i class="material-icons burgundy-text">menu</i></a>
+                        <a href="#" class="brand-logo "><img src="assets/images/logo.PNG" alt="" style="padding: 10px"></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="burgundy-text" >Home</a></li>
+                            <li><a class="burgundy-text" href="about.html">About</a></li>
+                            <li><a href="remedies.html" class="burgundy-text">Remedies</a></li>
+                            <li class="active burgundy"><a href="contact.html">Contact</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+            <ul class="sidenav" id="menu">
+                <li><a href="#" class=" sidenav-close"><i class="material-icons right burgundy-text">close</i></a></li>
+                <li><a href="index.html" class="burgundy-text">Home</a></li>
+                <li><a href="about.html" class="burgundy-text">About</a></li>
+                <li><a class="burgundy-text" href="remedies.html">Remedies</a></li>
+                <li class="active burgundy "><a class="white-text" href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+    
+        <main>
+            <section>
+               <div class="container">
+                    
+                    <div class="card z-depth-3 hoverable">
+                        <div class="card-content">
+                                <h4 class="center-align">Contact Us</h4>
+                           <div class="row">
+                               <div class="col s12 l4">
+                                   <img src="https://www.hellynewengland.com/wp-content/uploads/2014/05/5.jpg" alt="">
+                               </div>
+                               <div class="col s12 l6 offset-l1">
+                                   <form action="">
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="name" type="text" class="validate" required>
+                                            <label for="name">Name</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">call</i>
+                                            <input id="number" type="number" class="validate" required>
+                                            <label for="number">Phone Number</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">email</i>
+                                            <input id="email" type="email" class="validate" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">edit</i>
+                                            <textarea name="message" id="msg" cols="30" rows="10" class="materialize-textarea"></textarea>
+                                            <label for="msg">Message</label>
+                                        </div>
+                                        <button class="burgundy btn " type="submit">Submit</button>
+                                   </form>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+               </div>
+            </section>
+        </main>
+        <footer class="page-footer grey darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l4">
+                        <h5>About African Beauty</h5>
+                        <p style="text-align: justify !important;">African Beauty is a website created by young girls, to reduce the rate of skin bleaching in Africa.</p>
+                    </div>
+                    <div class="col s12 l3 offset-l1">
+                        <h5>Connect</h5>
+                        <a class="icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-linkedin"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-google"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col s12 l4">
+                        <h5>Contact</h5>
+                        <p>55, Moleye Street, Alagomeji,<br>Yaba, <br>Lagos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright black">
+                <div class="container">
+                        <p class="center-align">&copy; 2019 Designed by CHARTY Team. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+   <script src="assets/js/jquery.js"></script> 
+   <script src="assets/js/materialize.min.js"></script>
+   <script>
+   $(document).ready(function (){
+        $('.sidenav').sidenav();
+        $('.slider').slider();
+        $('.parallax').parallax();
+   })
+   </script>
+</html> 

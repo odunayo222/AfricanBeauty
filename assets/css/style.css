@@ -1,0 +1,85 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+.burgundy{
+    background-color: #800020 !important;
+}
+.burgundy-text{
+    color: #800020 !important;
+}
+#img{
+    height: 600px !important;
+}
+.justify{
+    text-align: justify;
+}
+#section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#obj{
+    padding-top: 80px;
+}
+.bleach{
+    font-size: 20px;
+    text-align: justify;
+}.fab{
+    font-size: 20px;
+    padding: 3px;
+}
+.icon{
+    color: white;
+}
+.grey.darken-2 {
+    background-color: #151515 !important;
+}
+.hero-text{
+    padding: 130px;
+    font-weight: bolder;
+    
+    /* font-size: 100px; */
+}
+#p{
+    font-size: 55px;
+    color: #940303 !important;
+}
+.flow-text{
+    word-spacing: 1px !important;
+}
+nav {
+    padding: 0px 30px ;
+}
+#ptext{
+    line-height: 1.7;
+    font-size: 18px; 
+}
+#row{
+    padding-bottom: 35px;
+}
+.stat-container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../images/slide3.jpg);
+    height: 200px;
+    background-size: contain;
+    padding-top: 90px;
+}
+.remedies {
+    padding-top: 35px;
+    padding-right: 30px;
+} .para{
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.para-text{
+    padding: 130px;
+    color: white !important;
+    font-weight: 300;
+    
+}
+form{
+    padding-top: 60px;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #800020;
+}
+

@@ -1,0 +1,160 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <style>
+        :root{
+            margin: 30px;
+            background-color: #800020;
+            
+        }
+        .container {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .content{
+            margin: 90px 20px;
+            text-align: justify;
+            font-size: 25px;
+            color: white;
+            font-weight: bolder;
+        }
+        #image{
+            /* height: 400px; */
+            border-radius: 100px 2px;
+        }
+        [type='text']{
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="assets/images/card1.png" alt="" id="image">
+        </div>
+        <div class="content">
+            <p>My name is odunayo ajayi. i am 23 years old . i love to code and i love solving mathematics. i have been able to code with Html css javascript and materialize.y name is odunayo ajayi. i am 23 years old . i love to code and i love solving mathematics. i have been able to code with Html css javascript and materialize.y name is odunayo ajayi. i am 23 years old . i love to code and i love solving mathematics. i have been able to code with Html css javascript and materialize.y name is odunayo ajayi. i am 23 years old . i love to code and i love solving mathematics. i have been able to code with Html css javascript and materialize</p>
+        </div>
+        
+
+    </div>
+   
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/fonts/material-icons.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Ubuntu">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+        <title>African Beauty | About</title>
+        <style>
+       
+
+.slider .indicators {
+    display: none;
+}
+.modal{
+    height: 400px !important;
+}
+
+        </style>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="navbar-fixed">
+            <nav class="white">
+                <div class="nav-wrapper">
+                   
+                    <a href="#" class="sidenav-trigger" data-target="menu"><i class="material-icons burgundy-text">menu</i></a>
+                    <a href="#" class="brand-logo "><img src="assets/images/logo.PNG" alt="" style="padding: 10px"></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html" class="burgundy-text" >Home</a></li>
+                        <li  class="active burgundy"><a  href="about.html">About</a></li>
+                        <li><a class="burgundy-text" href="remedies.html">Remedies</a></li>
+                        <li><a class="burgundy-text" href="contact.html">Contact</a></li>
+                    </ul>
+                  
+                </div>
+                
+            </nav>
+            </div>
+            <ul class="sidenav" id="menu">
+                <li><a href="#" class=" sidenav-close"><i class="material-icons right burgundy-text">close</i></a></li>
+                <li><a href="index.html" class="burgundy-text">Home</a></li>
+                <li class="active burgundy "><a href="about.html" class="white-text">About</a></li>
+                <li><a class="burgundy-text" href="remedies.html">Remedies</a></li>
+                <li><a class="burgundy-text" href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+
+       <main>
+           <a href="#" data-target="modal1" class="btn modal-trigger">Button</a>
+           <div class="modal" id="modal1">
+               <!-- <div class="modal-content"> -->
+                    <div class="slider hide-on-med-and-down">
+                            <ul class="slides">
+                                    
+                                <li><img src="assets/images/slide1.jpg" alt=""></li>
+                                <li><img src="assets/images/slide2.jpg" alt=""></li>
+                                <li><img src="assets/images/slide3.jpg" id="img"></li>
+                                <li><img src="assets/images/slide5.jpg"  class="responsive-img" style="height: 500px;"></li>
+                            </ul>
+                        </div>
+               </div>
+           </div>
+       </main>
+  
+        <footer class="page-footer grey darken-2">
+            <div class="container">
+               <div class="row">
+                    <div class="col s12 l4">
+                        <h5>About African Beauty</h5>
+                        <p style="text-align: justify !important;">African Beauty is a website created by young girls, to reduce the rate of skin bleaching in Africa.</p>
+                    </div>
+                    <div class="col s12 l3 offset-l1">
+                        <h5>Connect</h5>
+                        <a class="icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-linkedin"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-google"></i></a>
+                        <a class="icon" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col s12 l4">
+                        <h5>Contact</h5>
+                        <p>55, Moleye Street, Alagomeji,<br>Yaba, <br>Lagos.</p>
+                    </div>
+               </div>
+            </div>
+            <div class="footer-copyright black">
+                <div class="container">
+                    <p class="center-align">&copy; 2019 Designed by CHARTY Team. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+   <script src="assets/js/jquery.js"></script> 
+   <script src="assets/js/materialize.min.js"></script>
+   <script>
+   $(document).ready(function (){
+        $('.sidenav').sidenav();
+        $('.slider').slider(); 
+        $('.parallax').parallax();
+        $('.modal').modal();
+        $('.carousel').carousel();
+   })
+   </script>
+</html>
