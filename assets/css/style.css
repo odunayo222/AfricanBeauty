@@ -103,8 +103,24 @@ form{
     background-color: rgba(0, 0, 0, 0.37);
 }
 .contact{
-    margin: 40px 0px 180px;
+    margin: 60px 0px 180px;
 }
 .pagination li.active a{
     background-color: #800020;
 }
+.modal {
+    font-size: 18px;
+    margin-top: 50px;
+    max-height: 450px !important;
+    padding: 20px !important;
+}
+@media screen and (max-width: 600px) {
+    .modal{
+    font-size: 18px;
+    zoom: 150%;
+    margin-top: 350px !important;
+    height: 900px !important;
+    padding: 20px !important;
+}
+    
+  }
